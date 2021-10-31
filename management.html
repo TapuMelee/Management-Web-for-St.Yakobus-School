@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="web icon" type="image/png" href="assets/education.png"/>
+    <script src="script.js"></script>
+    <title>St. James School</title>
+</head>
+<body>
+    <div class="homecontainer">
+        <div class="header">
+            <img class="headerimg" src="assets/yakob.jpg" alt="">
+        </div>
+        <div class="column left";>
+            <div class="list";>
+                <div class="pfp">
+                  <img class="pfp" src="assets/fabio.jpg" alt="">
+                </div>
+                  <a>Fabio P</a>
+                  <br><br>
+                  <img class="menuicon" src="assets/menu.png" onclick="toggleMenu()" alt="">
+                  <br>
+                  <ul id="menuList">
+                    <li onclick="location.href='home.html';"><img class="icon" src="assets/dashboard.png">Dashboard</li>
+                    <li onclick="location.href='http:www.santoyakobus.or.id/';"><img class="icon" src="assets/web.png">Website</a></li>
+                    <li onclick="location.href='management.html';"><img class="icon" src="assets/data.png">Data Management</li>
+                    <li><img class="icon" src="assets/book.png">Subjects</li>
+                    <li><img class="icon" src="assets/people.png">Student Data</li>
+                    <li><img class="icon" src="assets/people.png">Alumni Data</li>
+                    <li><img class="icon" src="assets/people.png">Teacher Data</li>
+                    <li><img class="icon" src="assets/school.png">About School</li>
+                    <li><img class="icon" src="assets/contact.png">Contact</li>
+                    <li onclick="location.href='login.html';"><img class="icon" src="assets/left.png">Sign Out</li>
+                  </ul>  
+            </div>
+        </div>
+
+        <div class="column middle">
+            <div class="headertxt">
+                <h3>Data Management <a>  Table</a></h3>
+            </div>
+            <div class="dashbox">
+              <input type="text" id="search" onkeyup="searchItem()" placeholder="Search items">
+              <div class="tbody">
+              <table class="manTable" id="manTable">
+                  <tr>
+                    <th onclick="sortColnum(0)">Number</th>
+                    <th onclick="sortColumn(1)">Item Name</th>
+                    <th onclick="sortColnum(2)">Quantity</th>
+                    <th onclick="sortColumn(3)">Creator</th>
+                    <th onclick="sortColumn(4)">Date</th>
+                  </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Whiteboards</td>
+                    <td>50</td>
+                    <td>John</td>
+                    <td>14/07/2021</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Tables</td>
+                    <td>400</td>
+                    <td>Ben</td>
+                    <td>15/07/2021</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Chairs</td>
+                    <td>400</td>
+                    <td>Sam</td>
+                    <td>16/07/2021</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Markers</td>
+                    <td>125</td>
+                    <td>James</td>
+                    <td>17/07/2021</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Erasers</td>
+                    <td>75</td>
+                    <td>Richard</td>
+                    <td>18/07/2021</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Clipboards</td>
+                    <td>90</td>
+                    <td>Michael</td>
+                    <td>19/07/2021</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Books</td>
+                    <td>300</td>
+                    <td>David</td>
+                    <td>20/07/2021</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Pens</td>
+                    <td>225</td>
+                    <td>Robert</td>
+                    <td>21/07/2021</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Clocks</td>
+                    <td>80</td>
+                    <td>Thomas</td>
+                    <td>22/07/2021</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Calendars</td>
+                    <td>70</td>
+                    <td>Christopher</td>
+                    <td>23/07/2021</td>
+                </tr>
+              </table> 
+            </div>
+        </div>
+   </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

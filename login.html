@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="web icon" type="image/png" href="assets/education.png"/>
+    <script src="script.js"></script>
+    <title>St. James School</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="headerimg" src="assets/yakob.jpg" alt="">
+        </div>
+        <form name="login" action="home.html" method="POST" class="form" onSubmit="return validateLog(this);">
+          <div class="form-control">
+            <div class="signup">
+              <div class="signuptxt">Login</div>
+              <div class="boxes">
+                <div class="box">
+                  <input type="text" name="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="box">
+                  <input type="password" name="password" id="password" placeholder="Password" minlength="8" maxlength="10" required>
+                </div>
+                <div class="btn box">
+                  <input type="submit" name="submit" id="submit" value="Submit">
+                </div>
+                <div class="signuptxt2">Don't have an account? <a href="register.html">Register now</a></div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>

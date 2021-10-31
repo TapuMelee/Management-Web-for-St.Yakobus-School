@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="web icon" type="image/png" href="assets/education.png"/>
+    <script src="script.js"></script>
+    <title>St. James School</title>
+</head>
+<body>
+    <div class="homecontainer">
+        <div class="header">
+            <img class="headerimg" src="assets/yakob.jpg" alt="">
+        </div>
+        <div class="column left";>
+            <div class="list";>
+                <div class="pfp">
+                  <img class="pfp" src="assets/fabio.jpg" alt="">
+                </div>
+                  <a>Fabio P</a>
+                  <br><br>
+                    <img class="menuicon" src="assets/menu.png" onclick="toggleMenu()" alt="">
+                    <br>
+                <ul id="menuList">
+                    <li onclick="location.href='home.html';"><img class="icon" src="assets/dashboard.png">Dashboard</li>
+                    <li onclick="location.href='http:www.santoyakobus.or.id/';"><img class="icon" src="assets/web.png">Website</a></li>
+                    <li onclick="location.href='management.html';"><img class="icon" src="assets/data.png">Data Management</li>
+                    <li><img class="icon" src="assets/book.png">Subjects</li>
+                    <li><img class="icon" src="assets/people.png">Student Data</li>
+                    <li><img class="icon" src="assets/people.png">Alumni Data</li>
+                    <li><img class="icon" src="assets/people.png">Teacher Data</li>
+                    <li><img class="icon" src="assets/school.png">About School</li>
+                    <li><img class="icon" src="assets/contact.png">Contact</li>
+                    <li onclick="location.href='login.html';"><img class="icon" src="assets/left.png">Sign Out</li>
+                  </ul>  
+            </div>
+        </div>
+
+        <div class="column middle">
+            <div class="headertxt">
+                <h3>Dashboard <a> Website Statistics</a></h3>
+            </div>
+            <div class="dashbox">
+                <div class="dash1">
+                    <a style="padding: 20px 0 0 20px;">Dashboard</a>
+                  </div> 
+                <div class="dashcontent">
+                    <div class="dashboxes">
+                      <div class="box1">
+                        <div class="dashtxt">
+                          <div class="dashtxt">Users</div>
+                          <div class="dashnumber">248<img class="dashimg" src="assets/user.png"></div>
+                        </div>
+                      </div>
+                      <div class="box2">
+                        <div class="dashtxt">
+                          <div class="dashtxt">Students</div>
+                          <div class="dashnumber">154<img class="dashimg" src="assets/groupw.png"></div>
+                        </div>
+                      </div>
+                      <div class="box3">
+                        <div class="dashtxt">
+                          <div class="dashtxt">Teachers</div>
+                          <div class="dashnumber">36<img class="dashimg" src="assets/groupw.png"></div>
+                        </div>
+                      </div>
+                      <div class="box4">
+                        <div class="dashtxt">
+                          <div class="dashtxt">Contacts</div>
+                          <div class="dashnumber">64<img class="dashimg" src="assets/contactw.png"></div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="dash1">
+                <a style="padding: 20px 0 0 20px;">Info User</a>
+              </div>
+              <div id="tbody">
+              <table id="userTable">
+                <tr>
+                  <td>Full Name</td>
+                  <td>Administrator</td>
+                </tr>
+                <tr>
+                  <td>Username</td>
+                  <td>admin</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>admin@mail.com</td>
+                </tr>
+                <tr>
+                  <td>Phone Number</td>
+                  <td>081-511-731-868</td>
+                </tr>
+                <tr>
+                  <td>Address</td>
+                  <td>North Jakarta</td>
+                </tr>
+                <tr>
+                  <td>Last Login</td>
+                  <td>24-07-2021</td>
+                </tr>
+                <tr>
+                  <td>IP Address</td>
+                  <td>168.212.226.204</td>
+                </tr>
+                <tr>
+                  <td>Server</td>
+                  <td>localhost</td>
+                </tr>
+                <tr>
+                  <td>Browser</td>
+                  <td>Mozilla/5.0</td>
+                </tr>
+              </table>
+              </div> 
+        </div>
+   </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="web icon" type="image/png" href="assets/education.png"/>
+    <script src="script.js"></script>
+    <title>St. James School</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="headerimg" src="assets/yakob.jpg" alt="">
+        </div>
+        <form name="register" action="login.html" method="POST" class="form" onSubmit="return validateReg(this);">
+          <div class="form-control">
+            <div class="signup">
+              <div class="signuptxt">Registration</div>
+              <div class="boxes">
+                <div class="box">
+                  <input type="text" name="name" id="name" placeholder="Full Name" required>
+                </div>
+                <div class="box">
+                  <input type="text" name="address" id="address" placeholder="Address" required>
+                </div>
+                <div class="box">
+                  <input type="date" name="dob" id="dob" required>
+                </div>
+                <div class="box">
+                  <input type="tel" name="phone" id="phone" placeholder="Phone Number (123-456-789-101)" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                </div>
+                <div class="box">
+                  <input type="text" name="email" id="email" placeholder="E-mail" required>
+                </div>
+                <div class="box">
+                  <input type="password" name="password" id="password" placeholder="Password" minlength="8" maxlength="10" required>
+                </div>
+                <div class="btn box">
+                  <input type="submit" name="submit" id="submit" value="Submit">
+                </div>
+                <div class="signuptxt2">Already have an account? <a href="login.html">Login now</a></div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    <script src="script.js"></script>
+</body>
+</html>
